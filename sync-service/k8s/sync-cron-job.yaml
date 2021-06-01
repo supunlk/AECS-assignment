@@ -1,0 +1,19 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: sync-job
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: curl-command
+              image: curlimages/curl
+              command:
+                - /bin/sh
+                - -c
+                - date; curl http://sync-api-service:3000/issues http://sync-api-service:3000/pulls http://sync-api-service:3000/commits
+
+          restartPolicy: OnFailure

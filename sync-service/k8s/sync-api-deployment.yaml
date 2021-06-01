@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sync-api-deployment
+  labels:
+    app: sync-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sync-api
+  template:
+    metadata:
+      labels:
+        app: sync-api
+    spec:
+      containers:
+        - name: sync-api
+          image: supunlk/sync-api
+          ports:
+            - containerPort: 3000

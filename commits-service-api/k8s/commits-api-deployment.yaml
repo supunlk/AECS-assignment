@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: commits-api-deployment
+  labels:
+    app: commits-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: commits-api
+  template:
+    metadata:
+      labels:
+        app: commits-api
+    spec:
+      containers:
+        - name: commits-api
+          image: supunlk/commits-api
+          ports:
+            - containerPort: 3003

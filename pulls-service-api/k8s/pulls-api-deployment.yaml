@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pulls-api-deployment
+  labels:
+    app: pulls-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pulls-api
+  template:
+    metadata:
+      labels:
+        app: pulls-api
+    spec:
+      containers:
+        - name: pulls-api
+          image: supunlk/pulls-api
+          ports:
+            - containerPort: 3002

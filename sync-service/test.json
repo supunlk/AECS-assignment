@@ -1,0 +1,84 @@
+{
+  "sha": "60e0582a9fd9379ee6f2406a92457cf4fa4839f1",
+  "node_id": "MDY6Q29tbWl0MTc2MjA2ODA1OjYwZTA1ODJhOWZkOTM3OWVlNmYyNDA2YTkyNDU3Y2Y0ZmE0ODM5ZjE=",
+  "commit": {
+    "author": {
+      "name": "Sachith K",
+      "email": "sachithkarunathilake0@gmail.com",
+      "date": "2021-05-25T10:46:48Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2021-05-25T10:46:48Z"
+    },
+    "message": "Merge pull request #2311 from sachithKay/master\n\nMake RegistrySecretRepository public.",
+    "tree": {
+      "sha": "6068f78eb09083fae9e4a319ff35b338e06079e8",
+      "url": "https://api.github.com/repos/wso2/micro-integrator/git/trees/6068f78eb09083fae9e4a319ff35b338e06079e8"
+    },
+    "url": "https://api.github.com/repos/wso2/micro-integrator/git/commits/60e0582a9fd9379ee6f2406a92457cf4fa4839f1",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgrNWYCRBK7hj4Ov3rIwAA6RMIAIiGKqwiO5iayhvjpKawpgUd\nb9f8S8NOZ2oq+6Lm474d4S++maPQsTubYBMdJWP4qyC9Oqg9UsjGuTQIi0/U+a83\nD7PbNVhNJqMgum/ESgz3xYrMoyftivxc1nD2ubb6T959b0ipcmNwoG86WCLhc0kz\nGscFpXha4HkVV5KZozd4265tsoyojarW7tCCtW/69M2mnwp/GKrWsb3rJy3VpgUd\n/ZQbqarQlPDTXdoSPR8K5hZ0/afbqALI/itvX/4cJhqd97l314WIvsDepRq0MrWg\nxWefFcAyYq7v7Jgkn85FJlCQmVZKQQoOV5Eff+mvRV+O/22w8wAvZ+QrSkHlKw8=\n=Tcgk\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 6068f78eb09083fae9e4a319ff35b338e06079e8\nparent b09bc4ce99301aa33c0d18d30f9f13e470f69dd5\nparent 14fd6e2488825fa01b1a63d73bd928854e3e64c5\nauthor Sachith K <sachithkarunathilake0@gmail.com> 1621939608 +0530\ncommitter GitHub <noreply@github.com> 1621939608 +0530\n\nMerge pull request #2311 from sachithKay/master\n\nMake RegistrySecretRepository public."
+    }
+  },
+  "url": "https://api.github.com/repos/wso2/micro-integrator/commits/60e0582a9fd9379ee6f2406a92457cf4fa4839f1",
+  "html_url": "https://github.com/wso2/micro-integrator/commit/60e0582a9fd9379ee6f2406a92457cf4fa4839f1",
+  "comments_url": "https://api.github.com/repos/wso2/micro-integrator/commits/60e0582a9fd9379ee6f2406a92457cf4fa4839f1/comments",
+  "author": {
+    "login": "sachithKay",
+    "id": 22365810,
+    "node_id": "MDQ6VXNlcjIyMzY1ODEw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/22365810?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sachithKay",
+    "html_url": "https://github.com/sachithKay",
+    "followers_url": "https://api.github.com/users/sachithKay/followers",
+    "following_url": "https://api.github.com/users/sachithKay/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sachithKay/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sachithKay/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sachithKay/subscriptions",
+    "organizations_url": "https://api.github.com/users/sachithKay/orgs",
+    "repos_url": "https://api.github.com/users/sachithKay/repos",
+    "events_url": "https://api.github.com/users/sachithKay/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sachithKay/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "b09bc4ce99301aa33c0d18d30f9f13e470f69dd5",
+      "url": "https://api.github.com/repos/wso2/micro-integrator/commits/b09bc4ce99301aa33c0d18d30f9f13e470f69dd5",
+      "html_url": "https://github.com/wso2/micro-integrator/commit/b09bc4ce99301aa33c0d18d30f9f13e470f69dd5"
+    },
+    {
+      "sha": "14fd6e2488825fa01b1a63d73bd928854e3e64c5",
+      "url": "https://api.github.com/repos/wso2/micro-integrator/commits/14fd6e2488825fa01b1a63d73bd928854e3e64c5",
+      "html_url": "https://github.com/wso2/micro-integrator/commit/14fd6e2488825fa01b1a63d73bd928854e3e64c5"
+    }
+  ]
+},

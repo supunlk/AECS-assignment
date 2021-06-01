@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: issues-api-deployment
+  labels:
+    app: issues-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: issues-api
+  template:
+    metadata:
+      labels:
+        app: issues-api
+    spec:
+      containers:
+        - name: issues-api
+          image: supunlk/issue-service-api
+          ports:
+            - containerPort: 3001
